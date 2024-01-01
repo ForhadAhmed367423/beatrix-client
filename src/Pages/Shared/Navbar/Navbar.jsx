@@ -26,7 +26,7 @@ const Navbar = () => {
                 </ul>
             </div> 
             <div>
-                <button className="navbtn"><span className="flex"><TbSend/> Subscribe</span></button>
+                <button className="navbtn"><span className="navflex"><TbSend/> Subscribe</span></button>
             </div>   
 
         

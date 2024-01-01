@@ -30,7 +30,7 @@ li > a{
     color: white;
 }
 
-.flex{
+.navflex{
     display: flex;
     align-items: center;
     gap: 5px;

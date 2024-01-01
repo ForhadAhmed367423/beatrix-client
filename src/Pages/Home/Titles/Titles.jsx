@@ -1,4 +1,5 @@
 import useFirstData from '../../../Hooks/UseFirstData';
+import TitleCard from './TitleCard';
 import './titles.css'
 const Titles = () => {
     const [FirstData] = useFirstData();
@@ -6,9 +7,9 @@ const Titles = () => {
         <div  className="title">
            <> 
            {
-            FirstData.map(items => <div key={items._id}>
-                <h1>hello</h1>
-            </div>)
+            // eslint-disable-next-line react/no-unknown-property
+            FirstData.map(items => <TitleCard key={items._id} items={items}/>
+             )
            }
            </>
         </div>
