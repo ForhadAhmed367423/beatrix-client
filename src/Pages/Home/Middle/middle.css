@@ -1,5 +1,37 @@
 .middle{
-    display: flex;
     width: 50%;
     margin-right: 20px;
+}
+.middleflex{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 29px;
+}
+.middleImg{
+    width: 546px;
+    height: 405px;
+    margin-bottom: 20px;
+}
+
+.middletitle{
+    font-size: 37px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+
+.middledetails{
+    font-size: 15px;
+    color: #AEAEAE;
+    margin-bottom: 15px;
+}
+.middleauthor{
+    color: #3CFBB2;
+    font-size: 14px;
+
+}
+
+.f{
+    color: #AEAEAE;
+    font-size: 14px;
 }
