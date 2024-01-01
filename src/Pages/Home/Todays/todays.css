@@ -1,4 +1,39 @@
 .today{
-    display: flex;
     width: 25%;
+}
+
+.todaysimg{
+    width: 115px;
+    height: 105px;
+}
+
+.todaysTitle{
+    font-size: 16px;
+    font-weight: bold;
+}
+.todaysSub{
+    font-size: 16px;
+    color: #AEAEAE;
+}
+
+.todaysauthor{
+    color: #3CFBB2;
+    font-size: 14px;
+
+}
+
+.f{
+    color: #AEAEAE;
+    font-size: 14px;
+}
+
+.auth{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.tcard{
+    display: flex;
+    margin-bottom: 10px; 
+    gap: 15px;
 }
