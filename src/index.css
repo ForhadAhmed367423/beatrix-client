@@ -1,0 +1,10 @@
+.font{
+  font-family: 'Poppins', sans-serif;
+}
+.mainbg{
+  background: #131313;
+}
+*{
+  margin: 0;
+  padding: 0;
+}

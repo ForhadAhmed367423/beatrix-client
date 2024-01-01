@@ -1,0 +1,13 @@
+.home{
+   
+    width: 1140px;
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    color: white;
+}

@@ -1,0 +1,42 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.navlinks{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+   
+   
+}
+li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    
+}
+.navbtn{
+    border: 2px solid #3CFFD0;
+    background: transparent;
+    padding: 16px 34px 16px 34px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+hr{
+    border-bottom: 1px solid #848484;
+    padding: 0px 0px;
+}
