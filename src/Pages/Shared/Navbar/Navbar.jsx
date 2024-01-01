@@ -16,7 +16,7 @@ const Navbar = () => {
        <>
         <div className="nav">
             <div>
-                <img src="/public/logo.svg" alt="" />
+                <img src="https://gossip-themes.com/beatrix-html/preview/assets/media/logo.svg" alt="" />
             </div>      
             <div>
                 <ul className="navlinks">
