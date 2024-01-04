@@ -9,4 +9,44 @@
 .box{
     display: flex;
     color: white;
+    border-bottom: 1px solid #AEAEAE;
+}
+
+.pickToday{
+    width: 33.3333%;
+}
+
+.recent{
+    width: 66.66666667%;
+}
+
+.pickComp{
+    display: flex;
+    gap: 30px;
+}
+
+.PickHead{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+    margin-top: 10px;
+}
+.pickHead1{
+    font-size: 100px;
+    font-weight: bold;
+    color: #8B8B8B66;
+    
+}
+
+.PICKfLX{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.pickTitle{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
 }

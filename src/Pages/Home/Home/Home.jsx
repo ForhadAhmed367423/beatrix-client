@@ -2,6 +2,7 @@ import Middle from "../Middle/Middle";
 import Titles from "../Titles/Titles";
 import Todays from "../Todays/Todays";
 import './Home.css'
+import PickComp from "./PickSection/PickComp/PickComp";
 
 const Home = () => {
     return (
@@ -11,6 +12,9 @@ const Home = () => {
                 <Middle/>
                 <Todays/>
 
+            </div>
+            <div>
+                <PickComp/>
             </div>
         </div>
     );

@@ -5,6 +5,7 @@ const Todays = () => {
     const [todaysData]= UseTodaysData();
     return (
         <div className="today">
+            <h2 className='font todayhead'>Todays Pick</h2>
             <>
             {
                 todaysData.map(items=> <TodaysCard items={items} key={items._id}/>)
