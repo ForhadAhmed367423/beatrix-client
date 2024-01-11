@@ -1,0 +1,94 @@
+.footer{
+    width: 1140px;
+    margin: auto;
+    margin-top: 16px;
+    padding: 20px;
+}
+
+.footerbg{
+    background: #000000;
+}
+
+.footerdes{
+    color: white;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.footericon{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+.ficons{
+    font-size: 20px;
+    color:white
+}
+.mfooter{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+}
+.col2Title{
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+    
+}
+
+.recourseList{
+    margin-top: 15px;
+}
+
+.recourseList li{
+    margin-bottom: 5px;
+    
+    cursor: pointer;
+    list-style: none;
+}
+.liHov{
+    color: white;
+    transition: 1s;
+}
+ .liHov:hover{
+    color: #AEAEAE;
+}
+
+.fotterInp{
+    margin-top: 15px;
+    padding: 15px;
+    background: #262626;
+    border: none;
+    color: white;
+}
+.fotterInp:focus{
+    outline: none;
+}
+.fInput{
+   position: relative;
+   margin-bottom: 20px;
+    
+}
+.footerbtn{
+    padding: 15px;
+    font-size: 16px;
+    background: #3CFFD0;
+    color: black;
+    border: none;
+    position: absolute;
+    top: 15px;
+}
+
+.inplabel{
+    color: white;
+    font-size: 14px;
+    
+   
+
+}
+
+.fcheck{
+    margin-right: 10px;
+    background: transparent;
+    color: #3CFFD0;
+}

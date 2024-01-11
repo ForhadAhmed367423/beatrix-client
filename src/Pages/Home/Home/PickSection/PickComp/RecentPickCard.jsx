@@ -1,13 +1,11 @@
 
-const PickTodayCard = ({items}) => {
-    console.log(items)
+const RecentPickCard = ({items}) => {
     return (
-        <div className="PICKfLX">
+        <div>
             <div>
-                <h1 className="pickHead1">{items.number}</h1>
-            </div>
-            <div>
-                <h1 className="pickTitle font">{items.title}</h1>
+                <img className="recentImg" src={items.image} alt="" />
+                <h1 className="recentTitle font">{items.title}</h1>
+                <p className="font recentdes">{items.description}</p>
                 <div className="flex">
                 <p className="font f">By</p>
                 <p className="author font">{items.author}</p>
@@ -18,4 +16,4 @@ const PickTodayCard = ({items}) => {
     );
 };
 
-export default PickTodayCard;
+export default RecentPickCard;
